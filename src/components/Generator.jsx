@@ -162,7 +162,7 @@ const DPGenerator = ({
           ref={dpRef}
           width={1080}
           height={1080}
-          className="relative mt-4 w-[480px] h-[540px] lg:w-[1080px] lg:h-[1080px] overflow-hidden"
+          className="relative mt-4 w-[540px] h-[540px] lg:w-[1080px] lg:h-[1080px] overflow-hidden"
         />
         <div className='flex gap-4 justify-between border rounded-[10px] w-[470px] lg:w-[1000px] mt-8 items-center py-5 px-4 '>
           <div className='flex items-center gap-3 lg:gap-4'>
