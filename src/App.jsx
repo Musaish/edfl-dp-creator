@@ -116,7 +116,7 @@ const App = () => {
 
                 <button
                   onClick={resetPage}
-                  className="mt-[18px] mx-6 p-3 w-[350px] lg:w-[950px] rounded-[12px] bg-gradient-to-b from-[#198A4D] to-[#00C1FE] text-white"
+                  className="mt-[18px] mx-4 p-3 w-[350px] lg:w-[950px] rounded-[12px] bg-gradient-to-b from-[#198A4D] to-[#00C1FE] text-white"
                 >
                   Create Another
                 </button>
@@ -130,7 +130,7 @@ const App = () => {
          <div className=' mt-[64px] border shadow-md w-full h-[93px] lg:h-[120px] lg:w-[1000px]'>
          <button
            
-           className="disabled mt-[18px] mx-6 p-3 w-[350px] lg:w-[1000px] rounded-[12px] bg-gradient-to-b from-[#198a4e93] to-[#00c3fe94] text-white"
+           className="disabled mt-[18px] mx-6 p-3 w-[340px] lg:w-[1000px] rounded-[12px] bg-gradient-to-b from-[#198a4e93] to-[#00c3fe94] text-white"
          >
            Download Image
          </button>

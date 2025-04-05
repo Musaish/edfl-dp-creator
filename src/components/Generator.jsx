@@ -162,9 +162,9 @@ const DPGenerator = ({
           ref={dpRef}
           width={1080}
           height={1080}
-          className="relative mt-4 w-[400px] h-[400px] lg:w-[1080px] lg:h-[1080px] overflow-hidden"
+          className="relative mt-4 w-full h-full lg:w-[1080px] lg:h-[1080px] overflow-hidden"
         />
-        <div className='flex gap-4 justify-between border rounded-[10px] w-[400px] lg:w-[1000px] mt-8 items-center py-5 px-4 '>
+        <div className='flex gap-4 justify-between border rounded-[10px] w-[350px] lg:w-[1000px] mt-8 items-center py-5 px-4 '>
           <div className='flex items-center gap-3 lg:gap-4'>
             <div>
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -195,10 +195,10 @@ const DPGenerator = ({
         </div>
       </div>
       <DPCount name={name} onIncrementReady={setIncrementDpCount} />
-      <div className=' p-6 mt-[64px] border shadow-md w-[400px] h-[93px] lg:h-[120px] lg:w-[1000px]'>
+      <div className=' p-5 ml-3 mt-[64px] border shadow-md w-[350px] h-[93px] lg:h-[120px] lg:w-[1000px]'>
         <button
           onClick={handleDownload}
-          className=" mt-[18px] mx-5 p-3 w-[350px] lg:w-[950px] rounded-[12px] bg-gradient-to-b from-[#198A4D] to-[#00C1FE] text-white"
+          className=" p-3 w-[320px] lg:w-[950px] rounded-[12px] bg-gradient-to-b from-[#198A4D] to-[#00C1FE] text-white"
         >
           Download Image
         </button>
