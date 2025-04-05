@@ -104,7 +104,7 @@ const App = () => {
                 <img
                   src={generatedImage}  
                   alt="Generated DP"
-                  className="w-full h-full lg:w-[1080px] lg:h-[1080px] "
+                  className="w-full h-full lg:w-[1080px] lg:h-[1080px] object-cove "
                 />
               )}
               <div className=' p-6'>
