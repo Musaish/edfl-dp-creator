@@ -127,7 +127,7 @@ const DPGenerator = ({
 
         const link = document.createElement('a');
         link.href = dataUrl;
-        link.download = 'custom-dp.png';
+        link.download = 'edfl-dp.png';
         link.click();
 
 

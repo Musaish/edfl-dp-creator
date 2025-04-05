@@ -71,7 +71,7 @@ const App = () => {
             <p className="text-sm font-[400] leading-[16.94px] text-[#788195]">
               Upload your preferred image, downlaod and share with your loved ones.
             </p>
-            <img className='w-[540px] h-[540px] lg:w-[1080px] lg:h-[1080px] mt-6 ' src={dpTemplate} alt="mte-dp" />
+            <img className='w-full h-full lg:w-[1080px] lg:h-[1080px] mt-6 ' src={dpTemplate} alt="mte-dp" />
             <UploadForm
             name={name}
               onFileChange={handleFileChange}
